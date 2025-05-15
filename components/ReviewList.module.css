@@ -1,0 +1,247 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.reviewTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.averageBlock {
+  flex: 1;
+  min-width: 180px;
+  text-align: left;
+}
+
+.stars {
+  font-size: 22px;
+  color: gold;
+  margin-bottom: 5px;
+}
+
+.averageNumber {
+  font-size: 16px;
+  color: #444;
+}
+
+.reviewCount {
+  font-size: 14px;
+  color: #666;
+}
+
+.bars {
+  flex: 2;
+  min-width: 300px;
+}
+
+.barRow {
+  display: flex;
+  align-items: center;
+  margin: 6px 0;
+}
+
+.starText {
+  width: 60px;
+  font-size: 16px;
+  color: gold;
+}
+
+.barTrack {
+  flex: 1;
+  background-color: #eee;
+  height: 10px;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.barFill {
+  background-color: #b42b2b;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.countText {
+  font-size: 14px;
+  color: #333;
+  width: 30px;
+  text-align: right;
+}
+
+.buttonWrapper {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.leaveButton {
+  background-color: #b42b2b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sortContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.sortLabel {
+  font-weight: bold;
+}
+
+.sortSelect {
+  padding: 8px 12px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.reviewItem {
+  display: flex;
+  gap: 24px;
+  border-top: 1px solid #e2e2e2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.reviewLeft {
+  min-width: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.reviewStars {
+  font-size: 16px;
+  color: gold;
+}
+
+.reviewerName {
+  font-weight: 600;
+}
+
+.reviewDate {
+  color: #666;
+  font-size: 13px;
+}
+
+.reviewRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reviewTitle {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.reviewContent {
+  font-size: 15px;
+}
+
+.reviewPhoto {
+  max-width: 150px;
+  border-radius: 6px;
+  margin-top: 5px;
+  object-fit: cover;
+}
+
+.helpfulSection {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  color: #888;
+  margin-top: 10px;
+}
+
+.helpfulText {
+  color: #888;
+}
+
+.iconImage {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  object-fit: contain;
+}
+
+.voteGroup {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.pageButton {
+  background: #fff;
+  border: 1px solid #ccc;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s ease;
+}
+
+.pageButton:hover {
+  border-color: #999;
+}
+
+.activePage {
+  background: #8a2c1c;
+  color: white;
+  border: none;
+}
+
+.arrowButton {
+  background: none;
+  border: none;
+  font-size: 18px;
+  margin-left: 6px;
+  cursor: pointer;
+  color: #555;
+  transition: 0.2s ease;
+}
+
+.arrowButton:hover {
+  color: #000;
+}
